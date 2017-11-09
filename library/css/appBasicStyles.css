@@ -1,0 +1,289 @@
+BODY
+{
+	font-family:verdana;
+	font-size:10px;
+}
+
+input
+{
+	font-size:11px;
+	font-family:verdana;
+}
+
+textarea
+{
+	font-size:11px;
+	font-family:verdana;
+}
+
+a:link{
+	color:#153255;
+	text-decoration:none;
+}
+a:visited{
+	color:#153255;
+	text-decoration:none;
+}
+a:hover{
+	color:#008A00;
+	text-decoration:none;
+}
+a:active{
+	color:#C00000;
+	text-decoration:none;
+}
+
+.addAncStyles
+{
+	color:#153255;
+	text-decoration:none;
+	padding: 5px 8px;
+	border: 1px solid #153255;
+	border-radius:6px;
+	background:linear-gradient(to top, #DAE2E9 0px, #B8C7D3 100%) repeat scroll 0% 0% #B8C7D3;	
+}
+
+.addAncStyles hover
+{
+	color:#C00000;
+	text-decoration:none;
+	padding: 5px 8px;
+	border-radius:6px;
+	background:linear-gradient(to top, #B8C7D3 0px, #B8C7D3 100%) repeat scroll 0% 0% #B8C7D3;	
+}
+
+.appHeader
+{
+	width:100%;
+	
+}
+
+.appFooter
+{
+	border: 1px solid #AAD0FF;
+	padding:5px;
+	width:100%;
+	background:#000000;
+	text-align:center;
+	font-size:11px;
+	color:#FFFFFF;
+}
+
+.divMetaData
+{
+	display:none;
+	width:100%;
+	position:absolute;
+	top:85px;
+	left:0px;
+	border: 1px solid #17375E;
+	border-radius:6px;	
+	z-index:1001;
+}
+
+.divOpenProj
+{
+	display:none;
+	width:100%;
+	position:absolute;
+	top:85px;
+	left:0px;
+	border: 1px solid #17375E;
+	border-radius:6px;
+	z-index:1001;
+}
+
+.divAddMP
+{
+	display:none;
+	width:100%;
+	position:absolute;
+	top:85px;
+	left:0px;
+	border: 1px solid #17375E;
+	border-radius:6px;
+	z-index:1001;
+}
+
+.divAddMT
+{
+	display:none;
+	width:100%;
+	position:absolute;
+	top:85px;
+	left:0px;
+	border: 1px solid #17375E;
+	border-radius:6px;
+	z-index:1001;
+}
+
+.divAddMC
+{
+	display:none;
+	width:100%;
+	position:absolute;
+	top:85px;
+	left:0px;
+	border: 1px solid #17375E;
+	border-radius:6px;
+	z-index:1001;
+}
+
+.divAddWT
+{
+	display:none;
+	
+	position:absolute;
+	top:85px;
+	left:0px;
+	border: 1px solid #17375E;
+	border-radius:6px;
+	z-index:1001;
+}
+
+.divSelectProj
+{
+	width:94%;
+	border: 1px solid #17375E;
+	border-radius:6px;
+	margin:10px;
+}
+
+.openPorjScroll
+{
+	height:300px;
+	overflow:auto;	
+}
+
+.selPorjScroll
+{
+	height:400px;
+	overflow:auto;	
+}
+
+.openPorjTable
+{
+	width:100%;
+	border-collapse:collapse;
+}
+
+.openPorjTable td
+{
+	font-size:12px;
+	padding: 5px 10px;
+	border:1px solid #D3D3D3;	
+	border-collapse:collapse;
+}
+
+.mtDataTable
+{
+	border: 1px solid #17375E;
+	border-radius:6px;
+	border-collapse:collapse;
+	background-color:transparent;
+}
+
+.mtDataHeaderText
+{
+	font-weight:bold;
+	color:#FFFFFF;
+	font-size:12px;
+}
+
+.mtDataHeader
+{
+	padding: 5px;
+	background:linear-gradient(to top, #102641 0px, #17375E 100%) repeat scroll 0% 0% #17375E;	
+	border: 1px solid #17375E;
+	border-radius-top-left:6px;
+	border-radius-top-right:6px;
+}
+
+.mtDataLabel
+{
+	padding: 5px;
+	font-weight:bold;
+	font-size:11px;
+}
+
+.mtDataFields
+{
+	padding: 5px;
+	font-size:11px;
+}
+
+.divOpacity
+{
+	background-color:#9AB9F1;
+	position:absolute;
+	top:0px;
+	left:0px;
+	opacity:0.5;
+}
+
+.pgUpdTable
+{
+	border-collapse:collapse;
+	border: 1px solid #9AB9F1;
+	width:100%;
+}
+
+#projUpdateMP th
+{
+	background-color:#35648E;
+	color:#FFFFFF;
+	font-weight:bold;
+	font-size:12px;
+	padding:5px;
+}
+
+#projUpdateMP td
+{
+	font-size:11px;
+	padding:5px;
+}
+
+#projUpdateWT th
+{
+	background-color:#35648E;
+	color:#FFFFFF;
+	font-weight:bold;
+	font-size:12px;
+	padding:5px;
+}
+
+#projUpdateWT td
+{
+	font-size:11px;
+	padding:5px;
+}
+
+#projUpdateMT th
+{
+	background-color:#35648E;
+	color:#FFFFFF;
+	font-weight:bold;
+	font-size:12px;
+	padding:5px;
+}
+
+#projUpdateMT td
+{
+	font-size:11px;
+	padding:5px;
+}
+
+#projUpdateMC th
+{
+	background-color:#35648E;
+	color:#FFFFFF;
+	font-weight:bold;
+	font-size:12px;
+	padding:5px;
+}
+
+#projUpdateMC td
+{
+	font-size:11px;
+	padding:5px;
+}
